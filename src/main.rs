@@ -67,6 +67,7 @@ const DEFAULT_EXCLUDED_DIRS: &[&str] = &[
     "id Software",
     "include",
     "llama.cpp",
+    "licenses",
     "mingw64",
     "plugin",
     "plugins",
@@ -91,6 +92,7 @@ const DEFAULT_EXCLUDED_FILENAMES: &[&str] = &[
     ".gitignore",
     "AlbumArtSmall.jpg",
     "NTUSER.DAT",
+    "notes.txt",
     "README.md",
     "UnityCrashHandler64.exe",
     "cd.ico",
@@ -106,6 +108,7 @@ const DEFAULT_EXCLUDED_FILENAMES: &[&str] = &[
     "readme.html",
     "spcomp.exe",
     "spcomp64.exe",
+    "GPLv2.txt",
 ];
 
 const DEFAULT_EXTENSIONS_WHITE_LIST: &[&str] = &[
